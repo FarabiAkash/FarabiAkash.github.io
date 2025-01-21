@@ -3,28 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Al-Farabi Akash - Data Scientist & Backend Developer</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-    </header>
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>Hi, I'm Al-Farabi Akash, a CSE Master's student specializing in Machine Learning...</p>
-        </section>
-        <section>
-            <h2>Projects</h2>
-            <ul>
-                <li><a href="https://github.com/farabi/project1">Project 1</a></li>
-                <li><a href="https://github.com/farabi/project2">Project 2</a></li>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">AF</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="publications.html">Publications</a></li>
             </ul>
-        </section>
-        <footer>
-            <p>&copy; 2025 Al-Farabi Akash</p>
-        </footer>
-    </main>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Al-Farabi Akash</h1>
+                <h2>Data Scientist & Backend Developer</h2>
+                <p>Specializing in AI/ML technologies and scalable applications</p>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/al-farabi-akash" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/FarabiAkash" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:alfa.farabi@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/profile.jpeg" alt="Al-Farabi Akash">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Languages</h3>
+                <div class="skills">
+                    <span>Python</span>
+                    <span>R</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Frameworks</h3>
+                <div class="skills">
+                    <span>Django</span>
+                    <span>Flask</span>
+                    <span>ReactJS</span>
+                    <span>NextJS</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>AI/ML</h3>
+                <div class="skills">
+                    <span>TensorFlow</span>
+                    <span>PyTorch</span>
+                    <span>Scikit-learn</span>
+                    <span>LLMs</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2>Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Data Scientist</h3>
+                    <h4>Cloud Tech One</h4>
+                    <p class="date">October 2023 - Present</p>
+                    <ul>
+                        <li>Developing LLM models</li>
+                        <li>Building backend applications</li>
+                        <li>Implementing frontend interfaces</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Software Engineer</h3>
+                    <h4>LEADS Corporation Limited</h4>
+                    <p class="date">Nov 2020 - Sept 2023</p>
+                    <ul>
+                        <li>Backend development</li>
+                        <li>AI feature implementation</li>
+                        <li>Data analysis</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Al-Farabi Akash. All rights reserved.</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
